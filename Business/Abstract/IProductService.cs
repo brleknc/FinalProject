@@ -18,6 +18,7 @@ namespace Business.Abstract
 
         IResult Add(Product product);
         IResult Uptade(Product product);
+        IResult AddTransactionalTest(Product product);
 
     }
 }
